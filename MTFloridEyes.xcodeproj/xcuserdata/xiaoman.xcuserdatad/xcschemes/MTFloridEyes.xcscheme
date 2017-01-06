@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92EB92B51E1F60EE0044957D"
+               BuildableName = "MTFloridEyes.app"
+               BlueprintName = "MTFloridEyes"
+               ReferencedContainer = "container:MTFloridEyes.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92EB92CE1E1F60EE0044957D"
+               BuildableName = "MTFloridEyesTests.xctest"
+               BlueprintName = "MTFloridEyesTests"
+               ReferencedContainer = "container:MTFloridEyes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92EB92D91E1F60EE0044957D"
+               BuildableName = "MTFloridEyesUITests.xctest"
+               BlueprintName = "MTFloridEyesUITests"
+               ReferencedContainer = "container:MTFloridEyes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "92EB92B51E1F60EE0044957D"
+            BuildableName = "MTFloridEyes.app"
+            BlueprintName = "MTFloridEyes"
+            ReferencedContainer = "container:MTFloridEyes.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "92EB92B51E1F60EE0044957D"
+            BuildableName = "MTFloridEyes.app"
+            BlueprintName = "MTFloridEyes"
+            ReferencedContainer = "container:MTFloridEyes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "92EB92B51E1F60EE0044957D"
+            BuildableName = "MTFloridEyes.app"
+            BlueprintName = "MTFloridEyes"
+            ReferencedContainer = "container:MTFloridEyes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

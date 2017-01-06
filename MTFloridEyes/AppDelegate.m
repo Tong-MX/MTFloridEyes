@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SceneViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    SceneViewController *controller = [[SceneViewController alloc] init];
+    UINavigationController *naVC = [[UINavigationController alloc]initWithRootViewController:controller];
+    naVC.navigationBar.translucent = NO;
+    self.window.rootViewController = naVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

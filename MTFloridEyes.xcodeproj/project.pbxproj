@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92EB92BB1E1F60EE0044957D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB92BA1E1F60EE0044957D /* main.m */; };
+		92EB92BE1E1F60EE0044957D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB92BD1E1F60EE0044957D /* AppDelegate.m */; };
+		92EB92C11E1F60EE0044957D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB92C01E1F60EE0044957D /* ViewController.m */; };
+		92EB92C41E1F60EE0044957D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92EB92C21E1F60EE0044957D /* Main.storyboard */; };
+		92EB92C61E1F60EE0044957D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EB92C51E1F60EE0044957D /* Assets.xcassets */; };
+		92EB92C91E1F60EE0044957D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92EB92C71E1F60EE0044957D /* LaunchScreen.storyboard */; };
+		92EB92D41E1F60EE0044957D /* MTFloridEyesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB92D31E1F60EE0044957D /* MTFloridEyesTests.m */; };
+		92EB92DF1E1F60EE0044957D /* MTFloridEyesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB92DE1E1F60EE0044957D /* MTFloridEyesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92EB92D01E1F60EE0044957D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92EB92AE1E1F60EE0044957D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92EB92B51E1F60EE0044957D;
+			remoteInfo = MTFloridEyes;
+		};
+		92EB92DB1E1F60EE0044957D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92EB92AE1E1F60EE0044957D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92EB92B51E1F60EE0044957D;
+			remoteInfo = MTFloridEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92EB92B61E1F60EE0044957D /* MTFloridEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTFloridEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EB92BA1E1F60EE0044957D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92EB92BC1E1F60EE0044957D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92EB92BD1E1F60EE0044957D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92EB92BF1E1F60EE0044957D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92EB92C01E1F60EE0044957D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92EB92C31E1F60EE0044957D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92EB92C51E1F60EE0044957D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92EB92C81E1F60EE0044957D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92EB92CA1E1F60EE0044957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EB92CF1E1F60EE0044957D /* MTFloridEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTFloridEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EB92D31E1F60EE0044957D /* MTFloridEyesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFloridEyesTests.m; sourceTree = "<group>"; };
+		92EB92D51E1F60EE0044957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EB92DA1E1F60EE0044957D /* MTFloridEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTFloridEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EB92DE1E1F60EE0044957D /* MTFloridEyesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFloridEyesUITests.m; sourceTree = "<group>"; };
+		92EB92E01E1F60EE0044957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92EB92B31E1F60EE0044957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EB92CC1E1F60EE0044957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EB92D71E1F60EE0044957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92EB92AD1E1F60EE0044957D = {
+			isa = PBXGroup;
+			children = (
+				92EB92B81E1F60EE0044957D /* MTFloridEyes */,
+				92EB92D21E1F60EE0044957D /* MTFloridEyesTests */,
+				92EB92DD1E1F60EE0044957D /* MTFloridEyesUITests */,
+				92EB92B71E1F60EE0044957D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92EB92B71E1F60EE0044957D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92EB92B61E1F60EE0044957D /* MTFloridEyes.app */,
+				92EB92CF1E1F60EE0044957D /* MTFloridEyesTests.xctest */,
+				92EB92DA1E1F60EE0044957D /* MTFloridEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92EB92B81E1F60EE0044957D /* MTFloridEyes */ = {
+			isa = PBXGroup;
+			children = (
+				92EB92BC1E1F60EE0044957D /* AppDelegate.h */,
+				92EB92BD1E1F60EE0044957D /* AppDelegate.m */,
+				92EB92BF1E1F60EE0044957D /* ViewController.h */,
+				92EB92C01E1F60EE0044957D /* ViewController.m */,
+				92EB92C21E1F60EE0044957D /* Main.storyboard */,
+				92EB92C51E1F60EE0044957D /* Assets.xcassets */,
+				92EB92C71E1F60EE0044957D /* LaunchScreen.storyboard */,
+				92EB92CA1E1F60EE0044957D /* Info.plist */,
+				92EB92B91E1F60EE0044957D /* Supporting Files */,
+			);
+			path = MTFloridEyes;
+			sourceTree = "<group>";
+		};
+		92EB92B91E1F60EE0044957D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92EB92BA1E1F60EE0044957D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92EB92D21E1F60EE0044957D /* MTFloridEyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				92EB92D31E1F60EE0044957D /* MTFloridEyesTests.m */,
+				92EB92D51E1F60EE0044957D /* Info.plist */,
+			);
+			path = MTFloridEyesTests;
+			sourceTree = "<group>";
+		};
+		92EB92DD1E1F60EE0044957D /* MTFloridEyesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92EB92DE1E1F60EE0044957D /* MTFloridEyesUITests.m */,
+				92EB92E01E1F60EE0044957D /* Info.plist */,
+			);
+			path = MTFloridEyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92EB92B51E1F60EE0044957D /* MTFloridEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EB92E31E1F60EE0044957D /* Build configuration list for PBXNativeTarget "MTFloridEyes" */;
+			buildPhases = (
+				92EB92B21E1F60EE0044957D /* Sources */,
+				92EB92B31E1F60EE0044957D /* Frameworks */,
+				92EB92B41E1F60EE0044957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTFloridEyes;
+			productName = MTFloridEyes;
+			productReference = 92EB92B61E1F60EE0044957D /* MTFloridEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92EB92CE1E1F60EE0044957D /* MTFloridEyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EB92E61E1F60EE0044957D /* Build configuration list for PBXNativeTarget "MTFloridEyesTests" */;
+			buildPhases = (
+				92EB92CB1E1F60EE0044957D /* Sources */,
+				92EB92CC1E1F60EE0044957D /* Frameworks */,
+				92EB92CD1E1F60EE0044957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92EB92D11E1F60EE0044957D /* PBXTargetDependency */,
+			);
+			name = MTFloridEyesTests;
+			productName = MTFloridEyesTests;
+			productReference = 92EB92CF1E1F60EE0044957D /* MTFloridEyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92EB92D91E1F60EE0044957D /* MTFloridEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EB92E91E1F60EE0044957D /* Build configuration list for PBXNativeTarget "MTFloridEyesUITests" */;
+			buildPhases = (
+				92EB92D61E1F60EE0044957D /* Sources */,
+				92EB92D71E1F60EE0044957D /* Frameworks */,
+				92EB92D81E1F60EE0044957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92EB92DC1E1F60EE0044957D /* PBXTargetDependency */,
+			);
+			name = MTFloridEyesUITests;
+			productName = MTFloridEyesUITests;
+			productReference = 92EB92DA1E1F60EE0044957D /* MTFloridEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92EB92AE1E1F60EE0044957D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "小谩的Mac";
+				TargetAttributes = {
+					92EB92B51E1F60EE0044957D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J2YCKU52A2;
+						ProvisioningStyle = Automatic;
+					};
+					92EB92CE1E1F60EE0044957D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J2YCKU52A2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92EB92B51E1F60EE0044957D;
+					};
+					92EB92D91E1F60EE0044957D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J2YCKU52A2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92EB92B51E1F60EE0044957D;
+					};
+				};
+			};
+			buildConfigurationList = 92EB92B11E1F60EE0044957D /* Build configuration list for PBXProject "MTFloridEyes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92EB92AD1E1F60EE0044957D;
+			productRefGroup = 92EB92B71E1F60EE0044957D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92EB92B51E1F60EE0044957D /* MTFloridEyes */,
+				92EB92CE1E1F60EE0044957D /* MTFloridEyesTests */,
+				92EB92D91E1F60EE0044957D /* MTFloridEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92EB92B41E1F60EE0044957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EB92C91E1F60EE0044957D /* LaunchScreen.storyboard in Resources */,
+				92EB92C61E1F60EE0044957D /* Assets.xcassets in Resources */,
+				92EB92C41E1F60EE0044957D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EB92CD1E1F60EE0044957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EB92D81E1F60EE0044957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92EB92B21E1F60EE0044957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EB92C11E1F60EE0044957D /* ViewController.m in Sources */,
+				92EB92BE1E1F60EE0044957D /* AppDelegate.m in Sources */,
+				92EB92BB1E1F60EE0044957D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EB92CB1E1F60EE0044957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EB92D41E1F60EE0044957D /* MTFloridEyesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EB92D61E1F60EE0044957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EB92DF1E1F60EE0044957D /* MTFloridEyesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92EB92D11E1F60EE0044957D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92EB92B51E1F60EE0044957D /* MTFloridEyes */;
+			targetProxy = 92EB92D01E1F60EE0044957D /* PBXContainerItemProxy */;
+		};
+		92EB92DC1E1F60EE0044957D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92EB92B51E1F60EE0044957D /* MTFloridEyes */;
+			targetProxy = 92EB92DB1E1F60EE0044957D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92EB92C21E1F60EE0044957D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92EB92C31E1F60EE0044957D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92EB92C71E1F60EE0044957D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92EB92C81E1F60EE0044957D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92EB92E11E1F60EE0044957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92EB92E21E1F60EE0044957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92EB92E41E1F60EE0044957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2YCKU52A2;
+				INFOPLIST_FILE = MTFloridEyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-21486783.MTFloridEyes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92EB92E51E1F60EE0044957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2YCKU52A2;
+				INFOPLIST_FILE = MTFloridEyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-21486783.MTFloridEyes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92EB92E71E1F60EE0044957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2YCKU52A2;
+				INFOPLIST_FILE = MTFloridEyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-21486783.MTFloridEyesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFloridEyes.app/MTFloridEyes";
+			};
+			name = Debug;
+		};
+		92EB92E81E1F60EE0044957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2YCKU52A2;
+				INFOPLIST_FILE = MTFloridEyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-21486783.MTFloridEyesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFloridEyes.app/MTFloridEyes";
+			};
+			name = Release;
+		};
+		92EB92EA1E1F60EE0044957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J2YCKU52A2;
+				INFOPLIST_FILE = MTFloridEyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-21486783.MTFloridEyesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTFloridEyes;
+			};
+			name = Debug;
+		};
+		92EB92EB1E1F60EE0044957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J2YCKU52A2;
+				INFOPLIST_FILE = MTFloridEyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-21486783.MTFloridEyesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTFloridEyes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92EB92B11E1F60EE0044957D /* Build configuration list for PBXProject "MTFloridEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EB92E11E1F60EE0044957D /* Debug */,
+				92EB92E21E1F60EE0044957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EB92E31E1F60EE0044957D /* Build configuration list for PBXNativeTarget "MTFloridEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EB92E41E1F60EE0044957D /* Debug */,
+				92EB92E51E1F60EE0044957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92EB92E61E1F60EE0044957D /* Build configuration list for PBXNativeTarget "MTFloridEyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EB92E71E1F60EE0044957D /* Debug */,
+				92EB92E81E1F60EE0044957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92EB92E91E1F60EE0044957D /* Build configuration list for PBXNativeTarget "MTFloridEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EB92EA1E1F60EE0044957D /* Debug */,
+				92EB92EB1E1F60EE0044957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92EB92AE1E1F60EE0044957D /* Project object */;
+}
